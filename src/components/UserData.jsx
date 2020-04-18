@@ -7,8 +7,6 @@ class UserData extends Component {
   componentDidMount() {
     const btn = document.getElementById("btn");
     btn.disabled = true;
-    document.getElementById("username").textContent = "";
-    document.getElementById("address").textContent = "";
   }
 
   componentDidUpdate() {
